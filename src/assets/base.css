@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  transition: all 200ms ease;
+}
+
+body {
+  background-color: #DDDDDD;
+  --primary: #7695EC;
+  --primary-dark: #556caa;
+  --border: #777777;
+  --border-mid: #999999;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  max-width: 50em;
+  min-height: 100vh;
+  width: 100%;
+  margin: auto;
+}
